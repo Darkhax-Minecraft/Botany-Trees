@@ -1,0 +1,38 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betternether:nether_sakura_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betternether:nether_sakura_sapling"
+  },
+  "categories": [
+    "nether",
+    "jungle_grass"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "betternether:nether_sakura_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betternether:nether_sakura_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+  },
+  {
+      "chance": 0.50,
+      "output": {
+        "item": "betternether:nether_sakura_sapling"
+      }
+    }
+  ]
+}

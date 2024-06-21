@@ -1,0 +1,45 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betternether:willow_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betternether:willow_sapling"
+  },
+  "categories": [
+    "nether"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "betternether:willow_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betternether:willow_log"
+      },
+      "minRolls": 5,
+      "maxRolls": 8
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "betternether:willow_torch"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "betternether:willow_sapling"
+      }
+    }
+  ]
+}

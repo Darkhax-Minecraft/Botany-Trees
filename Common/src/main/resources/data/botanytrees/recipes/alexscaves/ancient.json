@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "alexscaves:ancient_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "alexscaves:ancient_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "alexscaves:ancient_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "minecraft:jungle_log"
+        },
+        "minRolls": 3,
+        "maxRolls": 5
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "alexscaves:tree_star"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "alexscaves:ancient_sapling"
+        }
+      }
+    ]
+  }

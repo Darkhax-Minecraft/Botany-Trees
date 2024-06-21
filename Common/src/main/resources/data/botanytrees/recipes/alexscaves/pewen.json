@@ -1,0 +1,69 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "alexscaves:pewen_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "alexscaves:pewen_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "alexscaves:pewen_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "alexscaves:pewen_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "alexscaves:pewen_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "alexscaves:pine_nuts"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "alexscaves:pewen_branch"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+        "chance": 0.05,
+        "output": {
+          "item": "alexscaves:pewem_pines"
+        }
+      }
+    ]
+  }

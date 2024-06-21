@@ -1,0 +1,54 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "gravitation:golden_aerfin_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "gravitation:golden_aerfin_sapling"
+  },
+  "categories": [
+    "dirt",
+    "aether_dirt"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "gravitation:golden_aerfin_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "gravitation:aerfin_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+  },
+  {
+    "chance": 0.20,
+    "output": {
+      "item": "aether:skyroot_stick"
+    },
+    "minRolls": 1,
+    "maxRolls": 2
+  },
+  {
+    "chance": 0.10,
+    "output": {
+      "item": "aether:golden_amber"
+    },
+    "minRolls": 1,
+    "maxRolls": 1
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "gravitation:golden_aerfin_sapling"
+      }
+    }
+  ]
+}

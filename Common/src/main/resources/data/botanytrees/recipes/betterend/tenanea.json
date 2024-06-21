@@ -1,0 +1,45 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betterend:tenanea_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betterend:tenanea_sapling"
+  },
+  "categories": [
+    "pink_moss"
+  ],
+  "growthTicks": 5500,
+  "display": {
+    "block": "betterend:tenanea_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betterend:tenanea_log"
+      },
+      "minRolls": 7,
+      "maxRolls": 10
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "betterend:tenanea_flowers"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "betterend:tenanea_sapling"
+      }
+    }
+  ]
+}

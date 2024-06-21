@@ -1,0 +1,37 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betternether:rubeus_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betternether:rubeus_sapling"
+  },
+  "categories": [
+    "nether"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "betternether:rubeus_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betternether:rubeus_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+  },
+  {
+      "chance": 0.50,
+      "output": {
+        "item": "betternether:rubeus_sapling"
+      }
+    }
+  ]
+}

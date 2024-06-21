@@ -1,0 +1,53 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betterend:mossy_glowshroom_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betterend:mossy_glowshroom_sapling"
+  },
+  "categories": [
+    "end_moss"
+  ],
+  "growthTicks": 5500,
+  "display": {
+    "block": "betterend:mossy_glowshroom_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betterend:mossy_glowshroom_log"
+      },
+      "minRolls": 7,
+      "maxRolls": 10
+  },
+  {
+    "chance": 0.20,
+    "output": {
+      "item": "betterend:mossy_glowshroom_cap"
+    },
+    "minRolls": 4,
+    "maxRolls": 6
+  },
+  {
+    "chance": 0.10,
+    "output": {
+      "item": "betterend:mossy_glowshroom_fur"
+    },
+    "minRolls": 1,
+    "maxRolls": 3
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "betterend:mossy_glowshroom_sapling"
+      }
+    }
+  ]
+}

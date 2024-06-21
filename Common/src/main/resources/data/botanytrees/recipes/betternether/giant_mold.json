@@ -1,0 +1,37 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betternether:giant_mold_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betternether:giant_mold_sapling"
+  },
+  "categories": [
+    "nether_mycelium"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "betternether:giant_mold_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betternether:mushroom_stem"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+  },
+  {
+      "chance": 0.50,
+      "output": {
+        "item": "betternether:giant_mold_sapling"
+      }
+    }
+  ]
+}

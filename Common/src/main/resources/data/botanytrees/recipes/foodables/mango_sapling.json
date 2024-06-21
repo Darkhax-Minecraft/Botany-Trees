@@ -1,0 +1,53 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "foodables:mango_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "foodables:mango_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "foodables:mango_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:jungle_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+  },
+  {
+    "chance": 0.20,
+    "output": {
+      "item": "minecraft:stick"
+    },
+    "minRolls": 1,
+    "maxRolls": 2
+  },
+  {
+    "chance": 0.20,
+    "output": {
+      "item": "foodables:mango"
+    },
+    "minRolls": 1,
+    "maxRolls": 2
+  },
+  {
+      "chance": 0.15,
+      "output": {
+        "item": "foodables:mango_sapling"
+      }
+    }
+  ]
+}

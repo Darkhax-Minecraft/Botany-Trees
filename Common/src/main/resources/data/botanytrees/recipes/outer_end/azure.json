@@ -1,0 +1,45 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "outer_end:azure_bud"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "outer_end:azure_bud"
+  },
+  "categories": [
+    "end"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "outer_end:azure_bud"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "outer_end:azure_stem"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.50,
+      "output": {
+        "item": "outer_end:azure_stamen"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "outer_end:azure_bud"
+      }
+    }
+  ]
+}

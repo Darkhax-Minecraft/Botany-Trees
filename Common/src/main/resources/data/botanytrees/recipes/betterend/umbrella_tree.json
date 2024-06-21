@@ -1,0 +1,53 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betterend:umbrella_tree_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betterend:umbrella_tree_sapling"
+  },
+  "categories": [
+    "jungle_moss"
+  ],
+  "growthTicks": 5500,
+  "display": {
+    "block": "betterend:umbrella_tree_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betterend:umbrella_tree_log"
+      },
+      "minRolls": 5,
+      "maxRolls": 8
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "betterend:umbrella_tree_membrane"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.03,
+      "output": {
+        "item": "betterend:umbrella_tree_cluster"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+  },
+  {
+      "chance": 0.10,
+      "output": {
+        "item": "betterend:umbrella_tree_sapling"
+      }
+    }
+  ]
+}

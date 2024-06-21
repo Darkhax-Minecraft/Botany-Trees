@@ -1,0 +1,39 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betternether:mushroom_fir_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betternether:mushroom_fir_sapling"
+  },
+  "categories": [
+    "mycelium",
+    "farmland",
+    "mushroom"
+  ],
+  "growthTicks": 2750,
+  "display": {
+    "block": "betternether:mushroom_fir_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betternether:mushroom_fir_stem"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+  },
+  {
+      "chance": 0.50,
+      "output": {
+        "item": "betternether:mushroom_fir_sapling"
+      }
+    }
+  ]
+}
