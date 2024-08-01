@@ -1,0 +1,53 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "create_dd:rubber_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "create_dd:rubber_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "create_dd:rubber_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "create_dd:rubber_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "create_dd:rubber_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "create_dd:rubber_sapling"
+      }
+    }
+  ]
+}
