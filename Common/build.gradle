@@ -1,5 +1,10 @@
+buildscript {
+    dependencies.add 'classpath', 'org.spongepowered:vanillagradle:0.2.1-20240507.024226-82'
+}
+
 plugins {
-    id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
+    id 'java'
+    id 'org.spongepowered.gradle.vanilla' version '0.2.1-20240507.024226-82'
 }
 
 apply from: '../gradle/property_helper.gradle'
