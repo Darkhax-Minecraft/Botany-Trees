@@ -28,9 +28,9 @@
         "maxRolls": 4
       },
       {
-        "chance": 0.25,
+        "chance": 0.50,
         "output": {
-          "item": "minecraft:stick"
+          "item": "gtceu:sticky_resin"
         },
         "minRolls": 1,
         "maxRolls": 2
