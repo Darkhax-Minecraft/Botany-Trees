@@ -3,26 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "naturesspirit:saxaul_sapling"
+          "natures_spirit:saxaul_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "naturesspirit:saxaul_sapling"
+      "item": "natures_spirit:saxaul_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "naturesspirit:saxaul_sapling"
+      "block": "natures_spirit:saxaul_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "naturesspirit:saxaul_log"
+          "item": "natures_spirit:saxaul_log"
         },
         "minRolls": 2,
         "maxRolls": 4
@@ -38,7 +38,7 @@
     {
         "chance": 0.01,
         "output": {
-          "item": "naturesspirit:saxaul_sapling"
+          "item": "natures_spirit:saxaul_sapling"
         }
       }
     ]
